@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 650" role="img" aria-label="Ilustração de um quimono de jiu-jitsu e um livro aberto">
+<defs><pattern id="lines" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="1"/></pattern><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".27"/></filter></defs>
+<rect width="740" height="650" rx="24" fill="#202629"/><rect width="740" height="650" rx="24" fill="url(#lines)"/>
+<circle cx="442" cy="288" r="209" fill="#CC2B36"/>
+<path d="M0 505L740 342V650H0Z" fill="#15191B"/>
+<path d="M0 567L740 402M0 640L740 472" stroke="#faf7ee" stroke-opacity=".16" stroke-width="3"/>
+<g filter="url(#s)" transform="translate(128 76)">
+<path d="M228 85L126 116 42 226 119 273 154 209 157 410 425 410 428 209 462 273 535 225 457 116 360 85 292 161Z" fill="#FDFBF5" stroke="#191E21" stroke-width="13" stroke-linejoin="round"/>
+<path d="M228 85L294 161 360 85 329 72 293 119 257 72Z" fill="#DAD7CB" stroke="#191E21" stroke-width="11" stroke-linejoin="round"/>
+<path d="M228 85L292 161 250 316" fill="none" stroke="#191E21" stroke-width="14" stroke-linecap="round"/>
+<path d="M359 85L291 161 338 323" fill="none" stroke="#191E21" stroke-width="14" stroke-linecap="round"/>
+<path d="M155 315H423" stroke="#191E21" stroke-width="24"/>
+<path d="M165 315H417" stroke="#505355" stroke-width="6"/>
+<path d="M265 306L307 333 319 298" stroke="#191E21" stroke-width="14" fill="none" stroke-linejoin="round"/>
+<path d="M161 323L261 365M314 328L432 370" stroke="#191E21" stroke-width="21" stroke-linecap="round"/>
+<path d="M182 331L209 343" stroke="#C92937" stroke-width="20"/>
+</g>
+<g transform="translate(244 492) rotate(-5)"><path d="M0 17Q100-26 196 23Q285-22 386 17V113Q277 66 196 108Q100 68 0 113Z" fill="#FBF4E6" stroke="#202629" stroke-width="8"/><path d="M196 23V108" stroke="#D8BFA9" stroke-width="5"/><path d="M40 43Q99 28 158 53M42 69Q100 52 156 76M229 53Q296 27 352 43M229 78Q290 54 350 65" stroke="#B9AF9F" stroke-width="7" stroke-linecap="round"/></g>
+<path d="M60 110L84 110M72 98L72 122M603 102L629 102M616 89L616 115" stroke="#fff" stroke-opacity=".8" stroke-width="5" stroke-linecap="round"/>
+</svg>

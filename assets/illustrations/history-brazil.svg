@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 490" role="img" aria-label="Ilustração de dois quimonos representando professores e tradições">
+    <defs><pattern id="tatami" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0V56" fill="none" stroke="#161a1c" stroke-opacity=".065" stroke-width="1"/></pattern><filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#171717" flood-opacity=".16"/></filter></defs>
+    <rect width="760" height="490" rx="22" fill="#F1E8D7"/><rect width="760" height="490" rx="22" fill="url(#tatami)"/><circle cx="575" cy="186" r="136" fill="#D7AB72" opacity=".94"/>
+    <path d="M0 415 C180 365 280 460 445 420S680 390 760 445V490H0Z" fill="#151B1C" opacity=".10"/>
+    <g transform="translate(82 82)"><path d="M70 232V92L155 58 236 94V232" fill="#fffaf2" stroke="#23292b" stroke-width="14" stroke-linejoin="round"/><path d="M253 231V92L338 58 420 94V232" fill="#242b2d" stroke="#23292b" stroke-width="14" stroke-linejoin="round"/><path d="M143 106L160 162 179 106M328 106L346 161 362 106" stroke="#c72f3a" stroke-width="12" fill="none" stroke-linecap="round"/><path d="M58 233H433" stroke="#202629" stroke-width="14" stroke-linecap="round"/><path d="M69 275H432" stroke="#202629" stroke-width="10" stroke-linecap="round"/></g>
+    </svg>

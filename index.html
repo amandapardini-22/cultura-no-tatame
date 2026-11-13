@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171c1e">
+  <meta name="description" content="Cultura no Tatame: uma jornada educativa e interativa pela história, posições, técnicas e tradições do jiu-jitsu. Projeto de extensão universitária com a comunidade Vikings Jiu-Jitsu.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cultura no Tatame | Muito além da luta">
+  <meta property="og:description" content="Descubra a história do jiu-jitsu, explore curiosidades e teste seus conhecimentos.">
+  <title>Cultura no Tatame | História, cultura e conhecimento</title>
+  <link rel="icon" href="assets/illustrations/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="top-ribbon" aria-hidden="true"><span></span><span></span><span></span></div>
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#topo" aria-label="Cultura no Tatame: voltar ao início">
+        <img src="assets/logo/vikings-jiu-jitsu.png" width="58" height="58" alt="Emblema do Projeto Social Vikings Jiu-Jitsu">
+        <span><strong>CULTURA NO TATAME</strong><small>HISTÓRIA • LEITURA • DESCOBERTAS</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#historia">História</a>
+        <a href="#tecnicas">Técnicas</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#comunidade">Vikings</a>
+      </nav>
+      <div class="header-actions">
+        <button class="type-toggle" id="type-toggle" type="button" aria-pressed="false" aria-label="Aumentar tamanho dos textos" title="Aumentar tamanho dos textos">A<span>+</span></button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Navegação para celular" hidden>
+      <a href="#historia">História</a><a href="#tecnicas">Técnicas</a><a href="#curiosidades">Curiosidades</a><a href="#quiz">Quiz</a><a href="#comunidade">Vikings</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-texture" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow light"><span class="eyebrow-line"></span> UMA JORNADA ALÉM DO TATAME</div>
+          <h1 id="hero-title">A HISTÓRIA <span>POR TRÁS</span><br>DE CADA FAIXA<span class="hero-period">.</span></h1>
+          <p>O jiu-jitsu tem muito mais para ensinar do que movimentos. Explore suas origens, descubra tradições e coloque seu conhecimento à prova!</p>
+          <div class="hero-buttons">
+            <a class="button button-red" href="#historia">COMEÇAR A JORNADA <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline-light" href="#quiz">IR PARA O QUIZ <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-meta" aria-label="Informações da experiência"><span>✦ Leitura em pequenas etapas</span><span>✦ Feito para celular</span><span>✦ Sem cadastro</span></div>
+        </div>
+        <div class="hero-art-wrap"><img class="hero-art" src="assets/illustrations/hero.svg" alt="Ilustração de um quimono de jiu-jitsu sobre um livro aberto"><span class="hero-sticker">APRENDER<br>É EVOLUIR! <span aria-hidden="true">✷</span></span></div>
+      </div>
+      <div class="hero-bottom"><span>DESLIZE PARA EXPLORAR</span><span aria-hidden="true">↓</span></div>
+    </section>
+
+    <div class="chapter-strip" aria-label="O que você encontrará"><div class="container strip-inner"><span><b>01</b> HISTÓRIA</span><i></i><span><b>02</b> POSIÇÕES</span><i></i><span><b>03</b> CURIOSIDADES</span><i></i><span><b>04</b> DESAFIO</span></div></div>
+
+    <section class="section history-section" id="historia" aria-labelledby="history-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span> PRIMEIRA PARADA / HISTÓRIA</div><h2 id="history-title">UMA VIAGEM <em>NO TEMPO.</em></h2><p>Da tradição japonesa ao tatame de hoje. Descubra a história do jiu-jitsu em cinco paradas rápidas!</p></div>
+          <span class="section-mark" aria-hidden="true">01<span>/04</span></span>
+        </div>
+        <div class="journey-layout">
+          <div class="journey-side">
+            <p class="journey-side-kicker">SEU MAPA DE DESCOBERTAS</p>
+            <div class="journey-nav" id="journey-nav" role="group" aria-label="Escolha uma parada histórica"></div>
+            <div class="journey-side-note">A história é construída por muitas pessoas. Cada parada revela uma parte dessa jornada.</div>
+          </div>
+          <div class="journey-card" id="journey-card">
+            <div class="journey-art"><img id="history-art" src="assets/illustrations/history-japan.svg" alt="Ilustração das origens japonesas do jiu-jitsu"><span class="journey-stamp" id="history-date">HÁ MUITO TEMPO...</span></div>
+            <div class="journey-content">
+              <span class="overline" id="history-progress-label">PARADA 01 DE 05</span>
+              <h3 id="history-card-title">Tudo começou no Japão!</h3>
+              <p id="history-card-text">Há muitos anos, diferentes escolas japonesas ensinavam técnicas que valorizavam o equilíbrio, o movimento e o controle. A história do jiu-jitsu começou muito antes de chegar ao Brasil!</p>
+              <div class="think-box"><span aria-hidden="true">✷</span><div><strong>HORA DE PENSAR</strong><p id="history-question">Será que a técnica pode ser tão importante quanto a força?</p></div></div>
+              <div class="card-controls"><button class="control-btn" type="button" id="history-prev">← ANTERIOR</button><span class="progress-fraction" id="history-number">01 / 05</span><button class="control-btn control-next" type="button" id="history-next">PRÓXIMA →</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="history-footnote"><span aria-hidden="true">✦</span> Curiosidade histórica: pesquisadores encontraram registros do jiu-jitsu no Brasil anteriores à chegada de Mitsuyo Maeda. Conhecer diferentes fontes amplia nossa visão da história!</div>
+      </div>
+    </section>
+
+    <section class="section techniques-section" id="tecnicas" aria-labelledby="tech-title">
+      <div class="container">
+        <div class="section-heading invert-heading">
+          <div><div class="eyebrow light"><span class="eyebrow-line"></span> SEGUNDA PARADA / POSIÇÕES E TÉCNICAS</div><h2 id="tech-title">PENSE. OBSERVE. <em>DESCUBRA.</em></h2><p>Você conhece esses movimentos? Toque em um cartão e revele o segredo por trás de cada posição ou técnica.</p></div>
+          <span class="section-mark" aria-hidden="true">02<span>/04</span></span>
+        </div>
+        <div class="tech-tabs" id="tech-tabs" role="group" aria-label="Escolha uma posição ou técnica"></div>
+        <div class="tech-carousel-controls" role="group" aria-label="Navegação das posições e técnicas">
+          <button class="button button-red" id="tech-prev" type="button" aria-label="Técnica anterior" aria-controls="tech-tabs tech-detail">← ANTERIOR</button>
+          <span id="tech-position" role="status" aria-live="polite" aria-atomic="true"></span>
+          <button class="button button-red" id="tech-next" type="button" aria-label="Próxima técnica" aria-controls="tech-tabs tech-detail">PRÓXIMA →</button>
+          <div id="tech-indicators" class="tech-indicators" role="group" aria-label="Escolha um dos cinco cartões"></div>
+        </div>
+        <div class="tech-detail" id="tech-detail">
+          <div class="tech-illustration"><img id="tech-image" src="assets/illustrations/tech-guard.svg" alt="Ilustração esquemática de jiu-jitsu"></div>
+          <div class="tech-copy">
+            <span class="tech-kind" id="tech-kind">POSIÇÃO · DESCOBERTA 01</span>
+            <h3 id="tech-name">GUARDA FECHADA</h3>
+            <p class="tech-subtitle" id="tech-subtitle">Uma defesa cheia de estratégia!</p>
+            <p class="tech-hook" id="tech-hook">Você sabia que estar por baixo nem sempre significa estar em desvantagem?</p>
+            <button class="button button-red reveal-button" id="tech-reveal" type="button" aria-expanded="false" aria-controls="tech-reveal-content">REVELAR SEGREDO <span aria-hidden="true">✷</span></button>
+            <div id="tech-reveal-content" class="tech-reveal" hidden><p id="tech-description"></p><div class="tech-thinking"><b>PARA PENSAR</b><p id="tech-reflection"></p></div><span class="skill-tag" id="tech-skill"></span></div>
+          </div>
+        </div>
+        <p class="safety-note">Estas ilustrações são educativas, não instruções de execução. Movimentos e técnicas devem ser praticados somente com orientação do professor.</p>
+      </div>
+    </section>
+
+    <section class="section curiosity-section" id="curiosidades" aria-labelledby="curiosity-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span> TERCEIRA PARADA / CURIOSIDADES</div><h2 id="curiosity-title">VOCÊ <em>SABIA?</em></h2><p>O tatame é cheio de histórias escondidas. Abra os cartões e descubra cinco curiosidades!</p></div>
+          <span class="section-mark" aria-hidden="true">03<span>/04</span></span>
+        </div>
+        <div class="curiosity-grid">
+          <details class="curiosity-card">
+            <summary><span class="curiosity-icon">01 <span aria-hidden="true">🥋</span></span><strong>POR QUE AS FAIXAS TÊM CORES DIFERENTES?</strong><span class="summary-arrow" aria-hidden="true">↗</span></summary>
+            <div class="curiosity-answer"><p>As faixas marcam etapas do aprendizado. Na graduação infantil da CBJJ/IBJJF existem grupos de cores branca, cinza, amarela, laranja e verde, com variações. A partir dos 16 anos, a sequência é diferente.</p><div class="belt-row" aria-label="Cores-base das faixas infantis: branca, cinza, amarela, laranja e verde"><span style="--belt:#fff" title="Branca"></span><span style="--belt:#a0a0a0" title="Cinza"></span><span style="--belt:#e6c335" title="Amarela"></span><span style="--belt:#e8912d" title="Laranja"></span><span style="--belt:#418b57" title="Verde"></span></div><small>Representação simplificada, sem as variações de cor e idade.</small><div class="mini-reflection">✦ O que você aprendeu desde que começou a treinar?</div></div>
+          </details>
+          <details class="curiosity-card">
+            <summary><span class="curiosity-icon">02 <span aria-hidden="true">⭐</span></span><strong>PARA QUE SERVEM OS GRAUS NA FAIXA?</strong><span class="summary-arrow" aria-hidden="true">↗</span></summary>
+            <div class="curiosity-answer"><p>Os pequenos graus podem mostrar etapas de evolução dentro da mesma faixa, seguindo os critérios de graduação adotados pelo professor ou pela academia.</p><div class="mini-reflection">✦ Você já percebeu uma evolução sua que não depende da cor da faixa?</div></div>
+          </details>
+          <details class="curiosity-card">
+            <summary><span class="curiosity-icon">03 <span aria-hidden="true">👘</span></span><strong>POR QUE USAMOS QUIMONO?</strong><span class="summary-arrow" aria-hidden="true">↗</span></summary>
+            <div class="curiosity-answer"><p>O uniforme, também chamado de <i>gi</i>, é composto por casaco, calça e faixa. O tecido resistente permite pegadas durante a prática. Manter o quimono limpo ajuda a cuidar da saúde e a respeitar os colegas.</p><div class="mini-reflection">✦ Por que os cuidados com o uniforme importam para todo o grupo?</div></div>
+          </details>
+          <details class="curiosity-card">
+            <summary><span class="curiosity-icon">04 <span aria-hidden="true">🤝</span></span><strong>POR QUE CUMPRIMENTAMOS OS COLEGAS?</strong><span class="summary-arrow" aria-hidden="true">↗</span></summary>
+            <div class="curiosity-answer"><p>Os cumprimentos mostram respeito e reconhecimento. Algumas academias usam reverências; outras, apertos ou toques de mão. Essas tradições variam entre os grupos.</p><div class="mini-reflection">✦ Como demonstrar respeito, mesmo quando uma luta não sai como esperávamos?</div></div>
+          </details>
+          <details class="curiosity-card card-wide">
+            <summary><span class="curiosity-icon">05 <span aria-hidden="true">🧠</span></span><strong>POR QUE CHAMAMOS O JIU-JITSU DE “ARTE SUAVE”?</strong><span class="summary-arrow" aria-hidden="true">↗</span></summary>
+            <div class="curiosity-answer"><p>A expressão japonesa <i>jujutsu</i> é frequentemente traduzida como “arte suave”. Ela lembra a importância do movimento, da flexibilidade e da técnica — não apenas da força.</p><div class="mini-reflection">✦ Você já resolveu um desafio usando uma boa estratégia?</div></div>
+          </details>
+        </div>
+        <div class="curiosity-bottom">ENQUANTO A FAIXA MOSTRA UMA ETAPA, <strong>A CURIOSIDADE FAZ A GENTE CONTINUAR EVOLUINDO.</strong> <span aria-hidden="true">✷</span></div>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="quiz" aria-labelledby="quiz-title">
+      <div class="container quiz-grid">
+        <div class="quiz-intro">
+          <div class="eyebrow light"><span class="eyebrow-line"></span> QUARTA PARADA / DESAFIO FINAL</div>
+          <h2 id="quiz-title">HORA DO <em>DESAFIO!</em></h2>
+          <p>Você explorou a história, conheceu posições e descobriu curiosidades. Agora é hora de colocar sua leitura à prova!</p>
+          <div class="quiz-points"><span>✓ 5 PERGUNTAS</span><span>✓ SEM CRONÔMETRO</span><span>✓ PODE TENTAR DE NOVO</span></div>
+          <div class="quiz-ornament" aria-hidden="true">?</div>
+        </div>
+        <div class="quiz-card" id="quiz-card" aria-live="polite">
+          <div class="quiz-card-header"><span class="quiz-chip">DESAFIO DO CONHECIMENTO</span><span id="quiz-count">01 / 05</span></div>
+          <div class="quiz-progress" aria-hidden="true"><div id="quiz-progress-fill"></div></div>
+          <div id="quiz-question-screen">
+            <p class="quiz-topic" id="quiz-topic">HISTÓRIA DO JIU-JITSU</p>
+            <h3 class="quiz-question" id="quiz-question">Em 1882, Jigoro Kano criou o Kodokan. O que ele queria ensinar além dos movimentos?</h3>
+            <div class="quiz-options" id="quiz-options" role="group" aria-label="Escolha uma resposta"></div>
+            <div class="quiz-feedback" id="quiz-feedback" hidden></div>
+            <button class="button button-red quiz-next" type="button" id="quiz-next" hidden>PRÓXIMA PERGUNTA <span aria-hidden="true">→</span></button>
+          </div>
+          <div id="quiz-result" hidden>
+            <div class="result-medal" aria-hidden="true">✦</div>
+            <h3>MISSÃO CONCLUÍDA!</h3>
+            <p class="result-count" id="quiz-score">0 de 5</p>
+            <p id="quiz-result-message"></p>
+            <p class="result-reminder">O mais importante não é acertar tudo de primeira. É continuar aprendendo!</p>
+            <button class="button button-red" type="button" id="quiz-reset">TENTAR NOVAMENTE <span aria-hidden="true">↻</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section community-section" id="comunidade" aria-labelledby="community-title">
+      <div class="container community-grid">
+        <div class="community-logo-card"><img src="assets/logo/vikings-jiu-jitsu.png" alt="Logotipo circular do Projeto Social Vikings Jiu-Jitsu" width="340" height="340"><span>UMA COMUNIDADE QUE ENSINA</span></div>
+        <div class="community-copy"><div class="eyebrow"><span class="eyebrow-line"></span> QUEM FAZ PARTE DESTA HISTÓRIA</div><h2 id="community-title">MAIS QUE UM ESPORTE. <em>UMA COMUNIDADE.</em></h2><p>O <strong>Projeto Social Vikings Jiu-Jitsu</strong> oferece aulas gratuitas no CEU Tremembé — Maria Firmina dos Reis, em São Paulo. Com a dedicação voluntária do professor Marcos, crianças e adolescentes encontram um espaço de convivência, disciplina, respeito e aprendizado.</p><p>O <strong>Cultura no Tatame</strong> nasceu para somar a essa experiência: usar a tecnologia e a leitura para descobrir as histórias por trás da arte suave.</p><div class="community-values"><span>RESPEITO</span><span>CONVIVÊNCIA</span><span>APRENDIZADO</span></div><a class="button button-dark" href="https://www.instagram.com/projetosocialvikingsjiujitsu/" target="_blank" rel="noopener noreferrer">CONHEÇA O VIKINGS NO INSTAGRAM <span aria-hidden="true">↗</span></a><small>Esta é uma iniciativa acadêmica independente e não representa o site oficial do Projeto Social Vikings ou do CEU.</small></div>
+      </div>
+    </section>
+
+    <section class="references-section" id="referencias" aria-labelledby="references-title">
+      <div class="container references-inner"><div><div class="eyebrow"><span class="eyebrow-line"></span> PARA CONTINUAR APRENDENDO</div><h2 id="references-title">FONTES & <em>REFERÊNCIAS.</em></h2><p>Quer investigar um pouco mais? Estas são algumas das fontes usadas para preparar nosso conteúdo.</p></div>
+      <ul class="reference-list">
+        <li><a href="https://www.scielo.br/j/rbce/a/hsWF8YZRffJBdgPhf8DtQ8B/?lang=pt" target="_blank" rel="noopener noreferrer"><strong>Lise & Capraro (2018)</strong><span>Primórdios do jiu-jitsu no Brasil — SciELO</span><b aria-hidden="true">↗</b></a></li>
+        <li><a href="https://ijf.org/page/history" target="_blank" rel="noopener noreferrer"><strong>Federação Internacional de Judô</strong><span>Jigoro Kano e a história do judô</span><b aria-hidden="true">↗</b></a></li>
+        <li><a href="https://www.revistas.udesc.br/index.php/tempo/pt_BR/article/view/2315" target="_blank" rel="noopener noreferrer"><strong>José Cairus (2011)</strong><span>A origem do jiu-jitsu brasileiro — UDESC</span><b aria-hidden="true">↗</b></a></li>
+        <li><a href="https://revista.fumec.br/index.php/mediacao/article/view/10562" target="_blank" rel="noopener noreferrer"><strong>Andrade — Revista Mediação</strong><span>História, cultura e diferentes linhagens do jiu-jitsu</span><b aria-hidden="true">↗</b></a></li>
+        <li><a href="https://cbjj.com.br/books-videos" target="_blank" rel="noopener noreferrer"><strong>CBJJ / IBJJF</strong><span>Manual de regras, posições e técnicas</span><b aria-hidden="true">↗</b></a></li>
+        <li><a href="https://cbjj.com.br/graduation-system" target="_blank" rel="noopener noreferrer"><strong>CBJJ / IBJJF</strong><span>Sistema de graduação e faixas</span><b aria-hidden="true">↗</b></a></li>
+        <li><a href="https://cbjj.com.br/uniform" target="_blank" rel="noopener noreferrer"><strong>CBJJ / IBJJF</strong><span>Regras sobre o uniforme</span><b aria-hidden="true">↗</b></a></li>
+        <li><a href="https://wcjjo.org/about/" target="_blank" rel="noopener noreferrer"><strong>WCJJO</strong><span>Origens japonesas e o significado de jū-jitsu</span><b aria-hidden="true">↗</b></a></li>
+        <li><a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" rel="noopener noreferrer"><strong>ONU — ODS 4</strong><span>Educação de Qualidade</span><b aria-hidden="true">↗</b></a></li>
+      </ul></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><div><strong>CULTURA NO TATAME<span>.</span></strong><p>História, cultura e conhecimento através do jiu-jitsu.</p></div><div class="footer-credit"><p>Projeto de extensão universitária · Análise e Desenvolvimento de Sistemas</p><p>Universidade Cruzeiro do Sul · Amanda Pardini · 2026</p><p>Comunidade participante: Projeto Social Vikings Jiu-Jitsu</p></div><a href="#topo" class="back-top" aria-label="Voltar ao topo">↑</a></div></footer>
+</body>
+</html>

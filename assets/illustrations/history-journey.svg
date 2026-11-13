@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 490" role="img" aria-label="Ilustração de navio atravessando oceano para o Brasil">
+    <defs><pattern id="tatami" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0V56" fill="none" stroke="#161a1c" stroke-opacity=".065" stroke-width="1"/></pattern><filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#171717" flood-opacity=".16"/></filter></defs>
+    <rect width="760" height="490" rx="22" fill="#E8F0EE"/><rect width="760" height="490" rx="22" fill="url(#tatami)"/><circle cx="575" cy="186" r="136" fill="#D62B39" opacity=".94"/>
+    <path d="M0 415 C180 365 280 460 445 420S680 390 760 445V490H0Z" fill="#151B1C" opacity=".10"/>
+    <g transform="translate(68 175)"><path d="M25 137H487L431 210H123Z" fill="#252C2D"/><path d="M196 120V-105" stroke="#252C2D" stroke-width="13"/><path d="M203-90L370 116H203Z" fill="#FFF7EC" stroke="#252C2D" stroke-width="9"/><path d="M180-30L75 113H180Z" fill="#FFF7EC" stroke="#252C2D" stroke-width="8"/><path d="M17 236Q85 215 152 236T286 236T420 236T562 236" stroke="#2C6670" stroke-width="18" fill="none" stroke-linecap="round"/></g><path d="M562 61L649 104M586 47L672 92" stroke="#fff" stroke-width="8" opacity=".8" stroke-linecap="round"/>
+    </svg>
